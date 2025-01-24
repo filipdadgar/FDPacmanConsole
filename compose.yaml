@@ -1,0 +1,6 @@
+﻿services:
+  fdpacmanconsole:
+    image: fdpacmanconsole
+    build:
+      context: .
+      dockerfile: FDPacmanConsole/Dockerfile
